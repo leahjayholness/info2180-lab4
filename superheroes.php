@@ -64,10 +64,9 @@ $superheroes = [
 
 ?>
 
-<?php if ($_POST['query'] == ""): ?>
-<?php endif; ?>
-    <ul>
-        <?php foreach ($superheroes as $superhero): ?>
+<ul>
+    <?php foreach ($superheroes as $superhero): ?>
             <li><?= $superhero['alias']; ?></li>
-        <?php endforeach; ?>
-    </ul>
+    <?php endforeach; ?>
+</ul>
+
