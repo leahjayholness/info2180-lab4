@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var button = $('#nameSubmitBtn');
+    var button = $('#search-button');
     button.on('click', function(element){
         element.preventDefault();
         var name = $('#name').val();
