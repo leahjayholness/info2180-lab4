@@ -82,7 +82,7 @@ $superheroes = [
             }
         } else {
             echo "<div><h1>RESULT</h1></div><hr>";
-            echo "<p>Superhero not Found</p>";
+            echo "<p id = \"none\">SUPERHERO NOT FOUND </p>";
         }
     } else {
         echo "<ul>";

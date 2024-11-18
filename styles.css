@@ -1,0 +1,45 @@
+body{
+    background-color: gainsboro;
+}
+
+#header {
+    color: white;
+    background-color: rgb(11, 146, 179);
+    padding: 5%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom:3%;
+}
+
+#subheading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1%;
+}
+
+input{ 
+   width: 60%;
+   margin-right:0%;
+   border-color: white;
+   height: 50%;
+}
+
+#result{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+button{
+    color: white;
+    background-color: red;
+    border-radius: 10%;
+    box-shadow: none;
+    border: 0%;
+    border-color: red;
+
+}
+ #none{
+    color: red;
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
